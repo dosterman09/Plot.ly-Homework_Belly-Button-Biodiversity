@@ -1,4 +1,4 @@
-// append ids to the dropdown   
+//  ids to the dropdown   
 d3.json('samples.json').then((data)=>{
     var id=data.names;
     console.log(data.metadata);
